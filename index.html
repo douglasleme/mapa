@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_79ac2b4b37e792887e4e99fc6fc039fd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_79ac2b4b37e792887e4e99fc6fc039fd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_79ac2b4b37e792887e4e99fc6fc039fd = L.map(
+                "map_79ac2b4b37e792887e4e99fc6fc039fd",
+                {
+                    center: [-24.5, -49.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_a82e52ddac2d5ed46acf5decce8fae5f = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var marker_056253ab3186fd488853218b70eadf73 = L.marker(
+                [-23.4543, -46.5336],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_3d885d51630faec773a75e886d250736 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_056253ab3186fd488853218b70eadf73.setIcon(icon_3d885d51630faec773a75e886d250736);
+        
+    
+        var popup_0ec25d2463be2b6635994677b7e514d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_46d46654a08efe27c15a6be061c8ca15 = $(`<div id="html_46d46654a08efe27c15a6be061c8ca15" style="width: 100.0%; height: 100.0%;">Guarulhos - SP (Início) - Dia 1</div>`)[0];
+            popup_0ec25d2463be2b6635994677b7e514d8.setContent(html_46d46654a08efe27c15a6be061c8ca15);
+        
+
+        marker_056253ab3186fd488853218b70eadf73.bindPopup(popup_0ec25d2463be2b6635994677b7e514d8)
+        ;
+
+        
+    
+    
+            marker_056253ab3186fd488853218b70eadf73.bindTooltip(
+                `<div>
+                     Guarulhos - SP (Início)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f94e18e3193d233db3babf59358a437b = L.marker(
+                [-25.4284, -49.2733],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_92d5c60c64249c6f12b05031ed905a88 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f94e18e3193d233db3babf59358a437b.setIcon(icon_92d5c60c64249c6f12b05031ed905a88);
+        
+    
+        var popup_1540f4ec937cfb837c0d54dfca2eaa94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0349f5165a31e63ff2369a82363daed2 = $(`<div id="html_0349f5165a31e63ff2369a82363daed2" style="width: 100.0%; height: 100.0%;">Curitiba - PR - Dias 1-2 e 14-15</div>`)[0];
+            popup_1540f4ec937cfb837c0d54dfca2eaa94.setContent(html_0349f5165a31e63ff2369a82363daed2);
+        
+
+        marker_f94e18e3193d233db3babf59358a437b.bindPopup(popup_1540f4ec937cfb837c0d54dfca2eaa94)
+        ;
+
+        
+    
+    
+            marker_f94e18e3193d233db3babf59358a437b.bindTooltip(
+                `<div>
+                     Curitiba - PR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1667d9c24bf0dcf181528b235bbf13b5 = L.marker(
+                [-26.4851, -49.0714],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_771f592275b755c675dda6cd8cc5eda2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1667d9c24bf0dcf181528b235bbf13b5.setIcon(icon_771f592275b755c675dda6cd8cc5eda2);
+        
+    
+        var popup_b0d60e67f833c21a0035b76c9dc89112 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_725e9a444105832cd8bb2ae6ba13b984 = $(`<div id="html_725e9a444105832cd8bb2ae6ba13b984" style="width: 100.0%; height: 100.0%;">Jaraguá do Sul - SC - Dia 3</div>`)[0];
+            popup_b0d60e67f833c21a0035b76c9dc89112.setContent(html_725e9a444105832cd8bb2ae6ba13b984);
+        
+
+        marker_1667d9c24bf0dcf181528b235bbf13b5.bindPopup(popup_b0d60e67f833c21a0035b76c9dc89112)
+        ;
+
+        
+    
+    
+            marker_1667d9c24bf0dcf181528b235bbf13b5.bindTooltip(
+                `<div>
+                     Jaraguá do Sul - SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ccf0716c9931f51d15b7276644f74d41 = L.marker(
+                [-26.92, -49.0658],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_9e410722a1e46224bb2b088e79bc1c18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ccf0716c9931f51d15b7276644f74d41.setIcon(icon_9e410722a1e46224bb2b088e79bc1c18);
+        
+    
+        var popup_4a817abe585097cd466bc6702f103fdf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a247f191e8f4493fa5d5ea556d11496 = $(`<div id="html_2a247f191e8f4493fa5d5ea556d11496" style="width: 100.0%; height: 100.0%;">Blumenau - SC - Dia 4</div>`)[0];
+            popup_4a817abe585097cd466bc6702f103fdf.setContent(html_2a247f191e8f4493fa5d5ea556d11496);
+        
+
+        marker_ccf0716c9931f51d15b7276644f74d41.bindPopup(popup_4a817abe585097cd466bc6702f103fdf)
+        ;
+
+        
+    
+    
+            marker_ccf0716c9931f51d15b7276644f74d41.bindTooltip(
+                `<div>
+                     Blumenau - SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2d60515e2ddab1f59fe2a40e09c96442 = L.marker(
+                [-27.5954, -48.548],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_83420ba91035d52996af9b930b90e70f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2d60515e2ddab1f59fe2a40e09c96442.setIcon(icon_83420ba91035d52996af9b930b90e70f);
+        
+    
+        var popup_3889003b7f5770b100cb7badd2e992c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_30eaffa642be416e8254fc18e89443a6 = $(`<div id="html_30eaffa642be416e8254fc18e89443a6" style="width: 100.0%; height: 100.0%;">Florianópolis - SC - Dias 5-6</div>`)[0];
+            popup_3889003b7f5770b100cb7badd2e992c7.setContent(html_30eaffa642be416e8254fc18e89443a6);
+        
+
+        marker_2d60515e2ddab1f59fe2a40e09c96442.bindPopup(popup_3889003b7f5770b100cb7badd2e992c7)
+        ;
+
+        
+    
+    
+            marker_2d60515e2ddab1f59fe2a40e09c96442.bindTooltip(
+                `<div>
+                     Florianópolis - SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34cd2ab573f664af5a71a69e2c9a61a3 = L.marker(
+                [-28.4713, -49.0144],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_e9dc794bef227dfd7db3c32f572e2d38 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_34cd2ab573f664af5a71a69e2c9a61a3.setIcon(icon_e9dc794bef227dfd7db3c32f572e2d38);
+        
+    
+        var popup_ab466344893c73c8bd7959bf30c045ce = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d43acece27de65bdd74d37b667e7d28 = $(`<div id="html_8d43acece27de65bdd74d37b667e7d28" style="width: 100.0%; height: 100.0%;">Tubarão - SC - Dia 7</div>`)[0];
+            popup_ab466344893c73c8bd7959bf30c045ce.setContent(html_8d43acece27de65bdd74d37b667e7d28);
+        
+
+        marker_34cd2ab573f664af5a71a69e2c9a61a3.bindPopup(popup_ab466344893c73c8bd7959bf30c045ce)
+        ;
+
+        
+    
+    
+            marker_34cd2ab573f664af5a71a69e2c9a61a3.bindTooltip(
+                `<div>
+                     Tubarão - SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4529f5a9dd6d2f5f89207ace30a692f = L.marker(
+                [-29.8881, -50.2667],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_74b07db8536fb04113bb4e633a259367 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a4529f5a9dd6d2f5f89207ace30a692f.setIcon(icon_74b07db8536fb04113bb4e633a259367);
+        
+    
+        var popup_75e9276ecf8a833d99d9da43b7683f23 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6bef01c0c437e023dcfdf57854518b49 = $(`<div id="html_6bef01c0c437e023dcfdf57854518b49" style="width: 100.0%; height: 100.0%;">Osório - RS - Dia 8 (passagem)</div>`)[0];
+            popup_75e9276ecf8a833d99d9da43b7683f23.setContent(html_6bef01c0c437e023dcfdf57854518b49);
+        
+
+        marker_a4529f5a9dd6d2f5f89207ace30a692f.bindPopup(popup_75e9276ecf8a833d99d9da43b7683f23)
+        ;
+
+        
+    
+    
+            marker_a4529f5a9dd6d2f5f89207ace30a692f.bindTooltip(
+                `<div>
+                     Osório - RS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8844f304b1834a9abb2b49019dc5b22a = L.marker(
+                [-29.378, -50.8761],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_e9672c7fae5b34a857416a90059fc5da = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8844f304b1834a9abb2b49019dc5b22a.setIcon(icon_e9672c7fae5b34a857416a90059fc5da);
+        
+    
+        var popup_ee5bcca3a7a620ffa47e11b1ba54897a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17e84b5c9718dd5a3265976bfd28e814 = $(`<div id="html_17e84b5c9718dd5a3265976bfd28e814" style="width: 100.0%; height: 100.0%;">Gramado - RS - Dias 8-11</div>`)[0];
+            popup_ee5bcca3a7a620ffa47e11b1ba54897a.setContent(html_17e84b5c9718dd5a3265976bfd28e814);
+        
+
+        marker_8844f304b1834a9abb2b49019dc5b22a.bindPopup(popup_ee5bcca3a7a620ffa47e11b1ba54897a)
+        ;
+
+        
+    
+    
+            marker_8844f304b1834a9abb2b49019dc5b22a.bindTooltip(
+                `<div>
+                     Gramado - RS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7cc200fd72b276506dfa4c35554b8ba4 = L.marker(
+                [-29.1662, -51.516],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_4e2620e984ae742fba660b5aae494ae9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7cc200fd72b276506dfa4c35554b8ba4.setIcon(icon_4e2620e984ae742fba660b5aae494ae9);
+        
+    
+        var popup_924356c2f7fe8d718a5c168d79b8ab16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f6f482c67a6d47a874cd6e8c686eff1 = $(`<div id="html_4f6f482c67a6d47a874cd6e8c686eff1" style="width: 100.0%; height: 100.0%;">Bento Gonçalves - RS - Dia 12</div>`)[0];
+            popup_924356c2f7fe8d718a5c168d79b8ab16.setContent(html_4f6f482c67a6d47a874cd6e8c686eff1);
+        
+
+        marker_7cc200fd72b276506dfa4c35554b8ba4.bindPopup(popup_924356c2f7fe8d718a5c168d79b8ab16)
+        ;
+
+        
+    
+    
+            marker_7cc200fd72b276506dfa4c35554b8ba4.bindTooltip(
+                `<div>
+                     Bento Gonçalves - RS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1d589b90f1ee06fe2162b5a688ad1bd9 = L.marker(
+                [-27.8161, -50.3266],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_697ad0717925c0d7da09774fd3e4f946 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1d589b90f1ee06fe2162b5a688ad1bd9.setIcon(icon_697ad0717925c0d7da09774fd3e4f946);
+        
+    
+        var popup_8d9f6a36bbdbaf4cd39178144c0d7031 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f50443e11584fd9d1c17f28d0c4ee92e = $(`<div id="html_f50443e11584fd9d1c17f28d0c4ee92e" style="width: 100.0%; height: 100.0%;">Lages - SC - Dia 13</div>`)[0];
+            popup_8d9f6a36bbdbaf4cd39178144c0d7031.setContent(html_f50443e11584fd9d1c17f28d0c4ee92e);
+        
+
+        marker_1d589b90f1ee06fe2162b5a688ad1bd9.bindPopup(popup_8d9f6a36bbdbaf4cd39178144c0d7031)
+        ;
+
+        
+    
+    
+            marker_1d589b90f1ee06fe2162b5a688ad1bd9.bindTooltip(
+                `<div>
+                     Lages - SC
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_90fda714e1c4719ba757378f0a287965 = L.marker(
+                [-25.4744, -48.8341],
+                {}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+    
+            var icon_e284f557c95a70a29d80307023029a00 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_90fda714e1c4719ba757378f0a287965.setIcon(icon_e284f557c95a70a29d80307023029a00);
+        
+    
+        var popup_47b353d2bd6517f81525189f1ebf7b9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14154cc2071bfe7bcf24ee64456bd7fa = $(`<div id="html_14154cc2071bfe7bcf24ee64456bd7fa" style="width: 100.0%; height: 100.0%;">Morretes - PR - Dia 14 (trem)</div>`)[0];
+            popup_47b353d2bd6517f81525189f1ebf7b9c.setContent(html_14154cc2071bfe7bcf24ee64456bd7fa);
+        
+
+        marker_90fda714e1c4719ba757378f0a287965.bindPopup(popup_47b353d2bd6517f81525189f1ebf7b9c)
+        ;
+
+        
+    
+    
+            marker_90fda714e1c4719ba757378f0a287965.bindTooltip(
+                `<div>
+                     Morretes - PR
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_15678e58746ff4ac23af63371f3d903d = L.polyline(
+                [[-23.4543, -46.5336], [-25.4284, -49.2733], [-26.4851, -49.0714], [-26.92, -49.0658], [-27.5954, -48.548], [-28.4713, -49.0144], [-29.8881, -50.2667], [-29.378, -50.8761], [-29.1662, -51.516], [-27.8161, -50.3266], [-25.4744, -48.8341]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_79ac2b4b37e792887e4e99fc6fc039fd);
+        
+</script>
+</html>
